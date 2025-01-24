@@ -1,0 +1,19 @@
+forms are used to collect user's data such as name,email,phone_number etc..,
+Eg: login, registration, feedback,contact,admission,
+attendance form, messages,subscribe,search, forgot password etc..,
+
+To take user's data we can use a self closing element named
+'input'
+Every input will have following attributes:
+  -- type: it defines the type of input it can take
+  -- placeholder: Dummy text to hold the place until actual value comes
+  -- id : used to identify the input uniquely
+  -- name : name is the variable by which value is sent to server
+Label Tag: label is used to select certain elements and it needed to be connected with input's id (for attribute)
+form tag also have attributes such as 
+  -- action: contains the path of server(where the form to be submitted)
+  -- method: it defines the way to send the values
+       -- GET: get shows all the values in  URL
+       -- POST: post will not show the values in the URL
+       
+create a simple login form using HTML(email,password)

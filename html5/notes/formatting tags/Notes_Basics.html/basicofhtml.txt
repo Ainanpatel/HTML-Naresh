@@ -1,0 +1,86 @@
+Basics of Internet
+1. What is the Internet?
+The internet is a global network of computers connected together. It allows these computers to communicate and share information with each other. It's like a giant web that connects people, devices, and resources all over the world.
+
+2. How Does the Internet Work?
+At its core, the internet relies on a set of protocols (rules for communication) called the TCP/IP protocol suite. Here's a simplified breakdown of how it works:
+Devices: Computers, smartphones, tablets, and other devices are connected to the internet. Each device is identified by a unique address called an IP address.
+Data Packets: When you send or receive information on the internet, it's broken down into small packets. These packets are like envelopes containing a part of the information, along with the source and destination IP addresses.
+Routers: These are devices that help route packets of data between different networks. They determine the most efficient path for data to travel from the sender to the recipient.
+Servers and Clients: Servers store and provide resources (like websites, images, and data), while clients request and display these resources. For example, your web browser (client) requests a web page from a server, and the server sends back the necessary files.
+Domain Names: To make it easier for people to access resources, domain names are used instead of IP addresses. Domain names (like www.example.com) are translated into IP addresses through a system called DNS (Domain Name System).
+
+3. Web Browsers:
+A web browser is the software you use to access and interact with websites on the internet. Popular web browsers include Chrome, Firefox, Safari, and Edge. Browsers render HTML, CSS, and JavaScript to display web pages properly.
+
+4. HTML, CSS, and JavaScript:
+These are the three fundamental technologies of the web:
+
+HTML (Hypertext Markup Language): It structures the content of a web page, defining headings, paragraphs, links, images, and more.
+CSS (Cascading Style Sheets): It controls the appearance of the content, like colors, fonts, spacing, and layout.
+JavaScript: It adds interactivity to web pages. It can be used to create animations, handle user input, and dynamically update content without requiring a full page reload.
+
+5. HTTP and HTTPS:
+HTTP (Hypertext Transfer Protocol) is the foundation of data communication on the web. It defines how requests and responses should be formatted and sent between clients and servers. HTTPS (HTTP Secure) adds a layer of security using encryption to protect data transmission, making it safer for users.
+
+6. Web Hosting:
+Websites are hosted on servers, which are powerful computers accessible via the internet. Web hosting companies provide services to store and serve website files, making them accessible to users around the world.
+
+7. Responsive Design:
+Front-end developers ensure that websites are responsive, meaning they adapt to different screen sizes and devices. This involves using CSS media queries and flexible layout techniques.
+
+8. Testing and Debugging:
+Front-end developers use browser developer tools to inspect and debug HTML, CSS, and JavaScript. These tools help identify and fix issues that affect the appearance and functionality of a website.   
+How Internet works:
+1. Sending and Receiving Data:
+Think of the internet as a massive network of computers connected together. When you use the internet, you're sending and receiving data between your computer (or device) and other computers around the world.
+2. IP Addresses:
+Every device connected to the internet has a unique identifier called an IP address. It's like a digital address for your computer. When you want to send or receive data, your IP address helps identify your computer on the network.
+3. Web Addresses (URLs):
+Websites are identified by web addresses, also known as URLs (Uniform Resource Locators). URLs are like the street addresses for websites. They tell your browser where to find the information you're looking for.
+4. Web Browsers:
+A web browser is the software you use to explore the internet. Examples include Chrome, Firefox, Safari, and Edge. Browsers take the information from websites and display it in a way that's easy for you to understand.
+
+
+
+5. Request and Response:
+When you type a web address into your browser's address bar and press Enter, your browser sends a request to the server where the website is stored. This request asks for the website's files, such as text, images, and code.
+The server receives your request, gathers the necessary files, and sends them back to your browser as a response. This response contains all the information your browser needs to show you the website.
+6. Rendering:
+Once your browser receives the HTML, CSS, and JavaScript files from the server, it starts rendering the webpage. Rendering means your browser processes the code and displays the content and design on your screen. This is what you see when you visit a website.
+How Browser Works:
+1. User Input:
+You, as a user, open a web browser like Chrome, Firefox, or Safari. You type a web address (URL) into the address bar or click on a bookmark or link.
+2. Sending a Request:
+When you press Enter or click a link, your web browser sends a request to a remote server. This server holds the website's files, including HTML, CSS, JavaScript, images, and more.
+3. DNS Lookup:
+Before sending the request, your browser performs a DNS (Domain Name System) lookup. It translates the human-readable web address (like www.example.com) into the IP address that computers understand. Think of DNS as the internet's phone book.
+4. Request Routing:
+Your request travels through the internet to reach the appropriate server. This journey involves various routers and network devices that help guide the request to its destination.
+5. Server Processing:
+The server receives your request. It processes the request and gathers the necessary files to send back to your browser.
+6. Server Response:
+The server sends back a response containing the requested files. This response typically includes HTML, CSS, JavaScript, images, and other resources needed to build the webpage.
+7. Rendering the Webpage:
+Once your browser receives the response, it starts rendering the webpage. Here's what happens:
+HTML Parsing: Your browser reads the HTML to understand the structure of the page, like headings, paragraphs, and links.
+CSS Parsing and Styling: Your browser processes the CSS to determine how the content should look. It sets fonts, colors, layout, and other styles.
+DOM (Document Object Model) Construction: Your browser creates a DOM, which is a structured representation of the webpage's content. Each element in the DOM corresponds to a part of the HTML document.
+Rendering: Your browser uses the DOM and CSS styles to render the webpage on your screen. It positions elements, applies styles, and displays everything according to the design.
+8. JavaScript Execution:
+If the webpage includes JavaScript code, your browser executes it. JavaScript adds interactivity and dynamic behavior to the webpage. It can respond to user interactions, update content, and perform various actions.
+9. User Interaction:
+You can interact with the webpage by clicking links, filling out forms, and more. These interactions trigger events that JavaScript code can capture and respond to, enhancing the user experience.
+10. Rendering Updates:
+If there are changes to the webpage due to user interactions or dynamic content updates, your browser re-renders the affected parts of the page to reflect those changes.
+11. Closing the Browser:
+When you close the browser or navigate to a different page, your browser releases the resources it used to render the current page, freeing up memory and processing power.
+
+Also Refer different Interpreters for different browsers and client server model.
+
+
+
+
+
+
+                                                    
